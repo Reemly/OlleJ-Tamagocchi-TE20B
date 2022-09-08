@@ -1,4 +1,8 @@
 ﻿using System;
 
-Console.WriteLine("ijfosjg");
-Console.ReadLine();
+
+
+Tamagotchi tama = new Tamagotchi();
+
+
+
