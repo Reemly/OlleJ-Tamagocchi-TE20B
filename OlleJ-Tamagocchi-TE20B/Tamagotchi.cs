@@ -12,7 +12,7 @@ public class Tamagotchi
 
     public Tamagotchi()
     {
-        generator = new Random;
+        generator = new Random();
         isALive = true;
 
     }
