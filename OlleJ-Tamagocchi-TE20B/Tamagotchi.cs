@@ -27,14 +27,14 @@ public class Tamagotchi
         {
             isALive = false;
         }
-
+      
     }
 
 
 
     public void Feed()
     {
-        Console.WriteLine("m");
+        Console.WriteLine("mm");
         hunger -= 2;
         if (hunger < 0)
         {
@@ -64,7 +64,12 @@ public class Tamagotchi
     }
 
 
-
+   public void Teach(string word) 
+   {
+    Console.WriteLine($"[{name}] learns: {word}");
+    words.Add(word);
+    ReduceBoredompls();
+   }
 
 
     public void printstats() {
